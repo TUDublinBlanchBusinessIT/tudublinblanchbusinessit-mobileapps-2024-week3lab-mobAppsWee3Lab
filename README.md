@@ -37,7 +37,7 @@ Add the following three <TextInput> components inside the <View></View> tags bel
 ```
 <TextInput placeholder="Enter your firstname" onChangeText={setFname}/>
 <TextInput placeholder="Enter your lastname" onChangeText={setLname}/>
-<TextInput placeholder="Enter your date of birth" onChangeText={(val) => setDob(val)}/>
+<TextInput placeholder="Enter your date of birth" onChangeText={setDob}/>
 ```
 See if you can type values into your fields without causing errors to appear. If you can, add the following tag
 ```
